@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stylish Product Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <h3>Stylish Product Showcase</h3>
+    <h5>HOME</h2>
+    <h5>PRODUCTS</h2> 
+    <H5>ABOUT</H2>                                 
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products...">
+    </div>
+    <button id="contact">CONTACT US</button>                                                                              
+  </div>                       
+  <div class="hero">
+    <p id="punch-line">The Finest Products For You</p>
+    <div id="hero-right">
+      <p>Here you find any produvts that will make you love yourself! Embrace the simple pleasures that add color to your life.</p>
+      <button id="explore">EXPLORE</button>
+      <div class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="candle">Candles</button>
+        <button data-filter="lipstick">Lipsticks</button>
+        <button data-filter="stationary">Stationery</button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="product">
+    <div class="product-card card-1" data-category="candle">
+      <img src="candle.webp" alt="Scented Candle">
+      <h3>Scented Candle</h3>
+      <p class="price">₹299</p>
+      <p class="desc">Soft Glow, gentle fragrance</p>
+      <button>Buy now</button>
+    </div>
+    <div class="product-card card-2" data-category="lipstick">
+      <img src="lipstick.webp" alt="Matte Lipstick">
+      <h3>Matte Lipstick</h3>
+      <p class="price">₹499</p>
+      <p class="desc">Long-lasting, bold, and smooth.</p>
+      <button>Buy now</button>
+    </div>
+    <div class="product-card ard-3" data-category="stationary">
+      <img src="notebook.avif" alt="Eco Notebook">
+      <h3>Eco Notebook</h3>
+      <p class="price">₹199</p>
+      <p class="desc">handmade with recycled paper</p>
+      <button>Buy now</button>
+    </div>
+  </div>
+  
+  <script src="Script.js"></script>
+</body>
+
+</html>
