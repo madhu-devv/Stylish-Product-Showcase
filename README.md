@@ -19,7 +19,7 @@ A modern, responsive product showcase webpage built with HTML, CSS, and JavaScri
 
 ## 🚀 Live Preview
 
-Coming soon with GitHub Pages!
+🔗 [Click here to view the live site](https://madhu-devv.github.io/Stylish-Product-Showcase/)
 
 ## 📌 Future Plans
 
